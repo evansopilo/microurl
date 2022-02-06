@@ -1,2 +1,7 @@
 # Micro-URL
-URL Shortener Web Service.
+A web service for shortening URLs.
+
+## Features
+
+## Installation
+## Requirements
