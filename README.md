@@ -12,4 +12,8 @@ A web service for shortening URLs. Takes a long URL the returns a shorten versio
 2. Scalable, the web service should at scale.
 3. Latency, low latency when serving client request.
 
-## High-level design.
+## requirements
+1. MongoDB 
+2. Redis Cache
+3. Go
+4. Docker 
