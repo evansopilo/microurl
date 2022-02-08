@@ -24,3 +24,34 @@ A web service for shortening URLs. Takes a long URL the returns a shorten versio
 2. [Redis Cache]("https://redis.io/") - Redis is an in-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker, with optional durability.
 3. [Go]("https://go.dev/") - Go is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson.
 4. [Docker]("https://www.docker.com/") - Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels.
+
+## How to install
+
+### Using Git (recommended)
+
+1.  Clone the project from github. 
+```bash
+git clone https://github.com/evansopilo/MICRO-URL.git 
+```
+
+### Using manual download ZIP
+
+1.  Download repository
+2.  Uncompress to your desired directory
+
+### Setting up environments (development or production)
+
+1.  In the root this repository you will find a file named `.env.example`
+2.  Create a new file by copying and pasting the file and then renaming it to just `.env`
+3.  The file `.env` is already ignored, so you never commit your credentials.
+4.  Change the values of the file to your environment (development or production)
+5.  Upload the `.env` to your environment server(development or production)
+6.  If you use the postman collection to try the endpoints, change value of the variable `server` on your environment to the url of your server, for development mode use <http://localhost:8080>
+
+## Bugs or improvements
+
+Feel free to report any bugs or improvements. Pull requests are always welcome.
+
+## License
+
+This project is open-sourced software licensed under the MIT License. See the LICENSE file for more information.
