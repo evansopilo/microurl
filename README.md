@@ -14,13 +14,6 @@ A web service for shortening URLs. Takes a long URL the returns a shorten versio
 3. Latency, low latency when serving client request.
 4. Peformance, the service should offer high peformance to users.
 
-## High Level Design
-
-1. URL creation Dataflow Design
-   ![URL creation Dataflow Design image](./images/create-URL-flow.png)
-2. Get Original URL Dataflow Design
-   ![Get Original URL Dataflow Design image](./images/get-URL-flow.png)
-
 ## Tools and Requirements
 1. [MongoDB]("https://www.mongodb.com/) - MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc.
 2. [Redis Cache]("https://redis.io/") - Redis is an in-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker, with optional durability.
