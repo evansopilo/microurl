@@ -14,15 +14,17 @@ A web service for shortening URLs. Takes a long URL the returns a shorten versio
 3. Latency, low latency when serving client request.
 4. Peformance, the service should offer high peformance to users.
 
-## Tools and Requirements
-1. MongoDB
-2. Redis Cache
-3. Go
-4. Docker
-
 ## High Level Design
 
 1. URL creation Dataflow Design
    ![URL creation Dataflow Design image](./images/create-URL-flow.png)
 2. Get Original URL Dataflow Design
    ![Get Original URL Dataflow Design image](./images/get-URL-flow.png)
+
+
+## Tools and Requirements
+1. MongoDB
+2. Redis Cache
+3. Go
+4. Docker
+
